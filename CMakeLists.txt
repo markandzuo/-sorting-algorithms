@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.23)
-project(M3AP)
+project(Sorting)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable( main.cpp)
+add_executable(Sorting main.cpp)
