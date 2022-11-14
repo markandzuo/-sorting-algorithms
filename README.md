@@ -1,31 +1,16 @@
-# -M3AP-zzuo-Tingwei11-xliu24
+# Sorting algorithms
 
-In this project, I have implemented various sorting algorithms such as bubble sort, insertion sort, selection sort, quicksort, mergesort, heapsort. These algorithms are implemented in c++ and the graphs comparing their sorting time of the algorithms are created using python.
+In this project, I have implemented various sorting algorithms such as bubble sort, insertion sort, selection sort, quicksort, mergesort, heapsort. These algorithms are implemented in c++ and the graphs comparing their sorting time of the algorithms are created using python. No any citation and any installations. 
 
 This project is based on the goodreads data, the current project helps us to understand how various sorting can be used to implement the sorting techniques on the previous dataset.
 
 This project gives us an insight on how the various algorithms affect the runtime of the program depending on the size of the dataset.
-
-##Data Attributes:
-BookName: The name of the book.
-AuthorName:  The name of the author who wrote the book.
-BookGenre: The category/type of the book.
-EditionLanguage: The language in which the book is published.
-NoOfPeopleVoted: The number of people that voted for the ratings.
-Score: The score received for the book.
-AverageRating: The average rating of the book as received from critics.
-YearPublished: The year in which the book was published.
-
-
-##Requirnment 
-According to the requirements, the c++ main file has commented and well organized code that generates unsorted arrays.
-
-Has well commented implementation of various sorting functions.
+ 
 The execution time of these function is calculated using the chrono library in c++.
 After all the functions are tested for their execution time, all the data regarding their execution time is stored in output files in the data folder.
 Once the data is stored in the folders, the c++ program makes a call to the python script which in turn reads from the previously generated data folders, which contains the execution time of the various algorithms.
 After reading the data, the python scripts plots the graph for the algorithms, the graphs are plotted between the size of array vs the execution time in microseconds.
-The python script makes use of matlpotlib library to create the graphs.	Once these graphs are created and displayed they are saved in the images folder.
+The python script makes use of matlpotlib library to create the graphs.	Once these graphs are created and displayed they are saved in the images folder. I completed this project with two teammates. I mainly responsible for the python part and explain each plot. 
 
 ### Output
 
